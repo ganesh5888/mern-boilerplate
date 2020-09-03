@@ -25,7 +25,7 @@ class App extends React.Component {
     console.log("render bestShows: ", this.state.bestShows)
     return (
       <div>
-        azure-mern-demo
+        welcome to azure-mern-demo Application!!!! You are ready to go....
         <ul>
           {
             Object.keys(this.state.bestShows).map((cur, idx) => (
