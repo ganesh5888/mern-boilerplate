@@ -12,12 +12,13 @@ class App extends React.Component {
 
   componentDidMount() {
     console.log("componentDidMount success")
+    /*
     axios.get('/api/data')
       .then(res => {
         console.log("data recieved: ", res.data);
         this.setState({ bestShows: res.data[0] });
       })
-      .catch(log);
+      .catch(alert);*/
   }
 
 
