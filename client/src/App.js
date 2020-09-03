@@ -17,7 +17,7 @@ class App extends React.Component {
         console.log("data recieved: ", res.data);
         this.setState({ bestShows: res.data[0] });
       })
-      .catch(alert);
+      .catch(log);
   }
 
 
